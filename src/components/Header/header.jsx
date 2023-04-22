@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import {Link} from 'react-router-dom';
-const header = () =>{
+const Header = () =>{
     return (
         <nav className="head">
             <div>
@@ -10,4 +10,4 @@ const header = () =>{
         </nav>
     )
 }
-export default header;
+export default Header;
